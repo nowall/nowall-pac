@@ -1,4 +1,4 @@
 nowall-pac
 ==========
 
-A simple pac file
+一个简单的pac文件，代码以方便添加为原则，适当的考虑了性能。
