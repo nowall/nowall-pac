@@ -18,17 +18,27 @@ var blocked_hosts = {};
 
 // GFW屏蔽的网站，只需要写根域名即可
 ;[
+    // slow site
+    'testflighapp.com',
+    // unstable site
+    'ecosia.org',
+	// blocked site
     'blogspot.com',
     'facebook.com',
     'facebook.net',
     'fbcdn.net',
     'feedburner.com',
     //google
+    'gmail.com',
     'goo.gl',
     'google.com',
-    'www.google.cn',
+    'google.cn',
     'google.com.hk',
     'googleusercontent.com',
+    'googleapis.com',
+    'gstatic.com',
+    'docs.google.com',
+    'appspot.com',
     // twitter
     'img.ly',
     't.co',
@@ -45,7 +55,21 @@ var blocked_hosts = {};
     // slideshare
     'slideshare.net',
     'linkedin.com',
-    'scorecardresearch.com'
+    'scorecardresearch.com',
+    // trello.com
+    'trellocdn.com',
+    // stackoverflow
+    'sstatic.net',
+    // wikia.com
+    'wikia.com',
+    'digitalocean.com',
+    // github cdn
+    'fastly.net',
+    'ghconduit.com',
+    // x
+    'sex.com',
+    'redtube.com',
+    'xvideos.com'
 ].forEach(function(host) {
     blocked_hosts[host] = 1;
 })
