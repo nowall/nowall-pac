@@ -86,8 +86,16 @@ function FindProxyForURL(url, host) {
             return PROXY_URL;
         }
     }
+    if(host.indexOf('google') >= 0) {
+        return PROXY_URL;
+    }
     var i = url.indexOf('?');
     if (i != -1) url = url.substring(0, i);
     if (blocked_urls[url]) return PROXY_URL;
     return DIRECT_OR_PROXY;
+}
+
+if(typeof exports != 'undefined') {
+    // test pac
+    console.log(FindProxyForURL('http://www.google.com.jp/1234', 'www.google.com.jp'));
 }
