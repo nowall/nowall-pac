@@ -48,6 +48,7 @@ var blocked_hosts = {};
     'twimg.com',
     'twitpic.com',
     'twitter.com',
+    'dw.de',
     // wiki
     'wikipedia.org',
     'worldjournal.com',
