@@ -43,6 +43,7 @@ var blocked_hosts = {};
     // twitter
     'img.ly',
     't.co',
+    'bit.ly',
     'twitlonger.com',
     'twimg.com',
     'twitpic.com',
