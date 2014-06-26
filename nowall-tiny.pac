@@ -92,6 +92,9 @@ function FindProxyForURL(url, host) {
     if(host.indexOf('google') >= 0) {
         return PROXY_URL;
     }
+    if(host.indexOf('thepiratebay') >= 0) {
+        return PROXY_URL;
+    }
     var i = url.indexOf('?');
     if (i != -1) url = url.substring(0, i);
     if (blocked_urls[url]) return PROXY_URL;
