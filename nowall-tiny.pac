@@ -40,6 +40,7 @@ var blocked_hosts = {};
     'gstatic.com',
     'docs.google.com',
     'appspot.com',
+    'android.com',
     // twitter
     'img.ly',
     't.co',
