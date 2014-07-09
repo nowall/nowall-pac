@@ -25,6 +25,7 @@ var blocked_hosts = {};
     'ecosia.org',
 	// blocked site
     'blogspot.com',
+    'wordpress.com',
     'facebook.com',
     'facebook.net',
     'fbcdn.net',
