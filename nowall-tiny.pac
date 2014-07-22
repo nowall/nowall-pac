@@ -43,6 +43,7 @@ var blocked_hosts = {};
     'appspot.com',
     'android.com',
     'angularjs.org',
+    'chrome.com',
     // twitter
     'img.ly',
     't.co',
