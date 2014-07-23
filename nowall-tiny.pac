@@ -43,6 +43,7 @@ var blocked_hosts = {};
     'appspot.com',
     'android.com',
     'angularjs.org',
+    'chrome.com',
     // twitter
     'img.ly',
     't.co',
@@ -72,6 +73,8 @@ var blocked_hosts = {};
     // github cdn
     'fastly.net',
     'ghconduit.com',
+    '184.154.128.246',
+    'cililian.org',
 ].forEach(function(host) {
     blocked_hosts[host] = 1;
 })
