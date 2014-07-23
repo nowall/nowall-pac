@@ -44,6 +44,7 @@ var blocked_hosts = {};
     'android.com',
     'angularjs.org',
     'chrome.com',
+    'golang.org',
     // twitter
     'img.ly',
     't.co',
