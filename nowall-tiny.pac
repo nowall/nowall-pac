@@ -76,6 +76,7 @@ var blocked_hosts = {};
     'ghconduit.com',
     // blog & tech
     'component.io',
+    'vimeo.com',
     // x
     '184.154.128.246',
     'cililian.org',
