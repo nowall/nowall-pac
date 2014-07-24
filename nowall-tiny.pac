@@ -74,6 +74,9 @@ var blocked_hosts = {};
     // github cdn
     'fastly.net',
     'ghconduit.com',
+    // blog & tech
+    'component.io',
+    // x
     '184.154.128.246',
     'cililian.org',
 ].forEach(function(host) {
