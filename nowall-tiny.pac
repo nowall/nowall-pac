@@ -94,7 +94,10 @@ function FindProxyForURL(url, host) {
     	return 'DIRECT';
     }
     if(tophost != 'com' && tophost != 'net' && tophost != 'edu') {
-    	return PROXY_URL;
+        if(/\d+/.test(tophost)) {
+            return 'DIRECT'
+        }
+        return PROXY_URL;
     }
     var host2 = parts.slice(-2).join('.');
     if(blocked_hosts[host2]) {
@@ -121,4 +124,5 @@ function FindProxyForURL(url, host) {
 if(typeof exports != 'undefined') {
     // test pac
     console.log(FindProxyForURL('http://www.google.com.jp/1234', 'www.google.com.jp'));
+    console.log(FindProxyForURL('http://192.168.0.58/1234', '192.168.0.58'));
 }
