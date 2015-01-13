@@ -82,6 +82,9 @@ function FindProxyForURL(url, host) {
     	return 'DIRECT';
     }
     if(tophost != 'com' && tophost != 'net' && tophost != 'edu') {
+        if(/\d+/.test(tophost)) {
+            return 'DIRECT'
+        }
     	return PROXY_URL;
     }
     var host2 = parts.slice(-2).join('.');
