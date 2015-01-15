@@ -70,7 +70,7 @@ var blocked_hosts = {};
     'sstatic.net',
     // wikia.com
     'wikia.com',
-    'digitalocean.com',
+    //'digitalocean.com',
     // github cdn
     'fastly.net',
     'ghconduit.com',
@@ -124,5 +124,7 @@ function FindProxyForURL(url, host) {
 if(typeof exports != 'undefined') {
     // test pac
     console.log(FindProxyForURL('http://www.google.com.jp/1234', 'www.google.com.jp'));
+    console.log(FindProxyForURL('http://ipub.io/1234', 'ipub.io'));
+    console.log(FindProxyForURL('https://cloud.digitalocean.com/droplets', 'cloud.digitalocean.com'));
     console.log(FindProxyForURL('http://192.168.0.58/1234', '192.168.0.58'));
 }

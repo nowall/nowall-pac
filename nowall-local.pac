@@ -64,7 +64,7 @@ var blocked_hosts = {};
     'sstatic.net',
     // wikia.com
     'wikia.com',
-    'digitalocean.com',
+    // 'digitalocean.com',
     // github cdn
     'fastly.net',
     'ghconduit.com',
