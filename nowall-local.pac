@@ -81,7 +81,7 @@ function FindProxyForURL(url, host) {
     if(tophost == 'cn') {
     	return 'DIRECT';
     }
-    if(tophost != 'com' && tophost != 'net' && tophost != 'edu') {
+    if(tophost != 'com' && tophost != 'edu') {
         if(/\d+/.test(tophost)) {
             return 'DIRECT'
         }
