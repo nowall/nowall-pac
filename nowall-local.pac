@@ -81,12 +81,14 @@ function FindProxyForURL(url, host) {
     if(tophost == 'cn') {
     	return 'DIRECT';
     }
-    if(tophost != 'com' && tophost != 'edu') {
+    /*
+    if(tophost != 'com' && tophost != 'edu' && tophost != 'org' && tophost != 'io') {
         if(/\d+/.test(tophost)) {
             return 'DIRECT'
         }
     	return PROXY_URL;
     }
+    */
     var host2 = parts.slice(-2).join('.');
     if(blocked_hosts[host2]) {
         return PROXY_URL;
