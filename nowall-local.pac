@@ -29,6 +29,7 @@ var blocked_hosts = {};
     'facebook.net',
     'fbcdn.net',
     'feedburner.com',
+    'sourceforge.net',
     //google
     'gmail.com',
     'goo.gl',
