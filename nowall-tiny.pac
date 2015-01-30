@@ -23,6 +23,7 @@ var blocked_hosts = {};
     'testflighapp.com',
     // unstable site
     'ecosia.org',
+    'coursera.org',
 	// blocked site
     'blogspot.com',
     'wordpress.com',
